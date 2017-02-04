@@ -1,14 +1,18 @@
-Web crawling is the process by which we gather pages from the Web, in order to index them and support a search engine. The objective of crawling is to quickly and efficiently gather as many useful web pages as possible, together with the link structure that interconnects them.
+Object-oriented programming (OOP) is a programming paradigm based on the concept of "objects", which may contain data, in the form of fields, often known as attributes; and code, in the form of procedures, often known as methods. A feature of objects is that an object's procedures can access and often modify the data fields of the object with which they are associated (objects have a notion of "this" or "self"). In OOP, computer programs are designed by making them out of objects that interact with one another. There is significant diversity of OOP languages, but the most popular ones are class-based, meaning that objects are instances of classes, which typically also determine their type.
 
-## Good Free Web Scrapers
+Many of the most widely used programming languages (such as C++, Java, Python etc.) are multi-paradigm programming languages that support object-oriented programming to a greater or lesser degree, typically in combination with imperative, procedural programming. Significant object-oriented languages include Java, C++, C#, Python, PHP, Ruby, Perl, Delphi, Objective-C, Swift, Scala, Common Lisp, and Smalltalk.
 
-1. [Extract Data from Web](http://www.dataextractionservices.com/webdata-extraction.php?utm_source=Quora)
-* [Tarantoola.io | Web Scraping, Data Extraction From Websites](https://tarantoola.io/)
-* [iDataguru](http://www.idataguru.com/data-scraping-services/)
-* [datahut.co](http://datahut.co/)
-* [Web Scraper](http://webscraper.io/)
-* [Web Scraping](http://www.computyne.com/web-research-services/web-scraping-services/)
-* [BotScraper.com](http://www.botscraper.com/)
-* [BotSol | Google maps crawler (free)](http://www.botsol.com/Products/GoogleMapsCrawler)
-* [Octoparse](http://www.octoparse.com/?qu)
-* [uScraper](http://uscraper.com/)
+## Books
+
+<div class="books" gid="1uByvkGjEayO1Yd5YonbxP8WhHnt4-8S-L4X-_j2PD6E"></div>
+<div class="clearfix"></div>
+
+## Courses
+
+<div class="courses" gid="1aC7-MPgf4KqtoVHsX7av60i4-ipRLgAtoFXesXjtKJY"></div>
+<div class="clearfix"></div>
+
+## Videos
+
+<div class="videos" gid="1mpPQtZPMYXT_Yo4fK_02zuWqXDZWQzkBADiM7HI44pk"></div>
+<div class="clearfix"></div>
