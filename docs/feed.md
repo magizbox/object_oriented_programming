@@ -1,3 +1,3 @@
 # Latest News
 
-<div class="feeds" gid="1T6EcKbdI--fSZv8UcoGZgH9ZZOgRCq91aymgH2X0tkI"></div>
+<div class="feeds" gid="1P1Kvi9S4WwVk0quwOtDuGhEeGa8xpLieYeuEvH2X2f8"></div>

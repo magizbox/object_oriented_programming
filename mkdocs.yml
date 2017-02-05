@@ -4,16 +4,9 @@ google_analytics: ["UA-68978617-1", "magizbox.com"]
 
 pages:
 - "<span class='fa fa-home'></span> Home": "index.md"
-- "Overview":
-  - "Web Cralwer": "web_crawler.md"
-  - "Crawling": "crawling.md"
-  - "New Approach": "new_approach.md"
-- "Scrapy":
-  - "Getting Started": "scrapy.md"
-- "Apache Nutch":
-  - "Getting Started": "nutch.md"
-  - "Architecture": "nutch_architecture.md"
-  - "Develop Nutch in IntellIJ": "nutch_intellij.md"
+- "Overview": "overview.md"
+- "UML": "uml.md"
+- "Design Patterns": "design_pattern.md"
 - "<span class='fa fa-rss'></span> News": "feed.md"
 
 markdown_extensions:
