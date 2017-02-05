@@ -6,6 +6,7 @@ pages:
 - "<span class='fa fa-home'></span> Home": "index.md"
 - "Overview": "overview.md"
 - "UML": "uml.md"
+- "SOLID": "solid.md"
 - "Design Patterns": "design_pattern.md"
 - "<span class='fa fa-rss'></span> News": "feed.md"
 

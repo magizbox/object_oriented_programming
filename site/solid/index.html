@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../img/favicon.ico">
 
-	<title><span class='fa fa-rss'></span> News - Object Oriented Programming</title>
+	<title>SOLID - Object Oriented Programming</title>
 
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
@@ -87,8 +87,8 @@
                 
                 
                 
-                    <li >
-                        <a href="../solid/">SOLID</a>
+                    <li class="active">
+                        <a href="./">SOLID</a>
                     </li>
                 
                 
@@ -99,8 +99,8 @@
                 
                 
                 
-                    <li class="active">
-                        <a href="./"><span class='fa fa-rss'></span> News</a>
+                    <li >
+                        <a href="../feed/"><span class='fa fa-rss'></span> News</a>
                     </li>
                 
                 
@@ -115,12 +115,12 @@
                 </li>
                 
                     <li >
-                        <a rel="next" href="../design_pattern/">
+                        <a rel="next" href="../uml/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
-                    <li class="disabled">
-                        <a rel="prev" >
+                    <li >
+                        <a rel="prev" href="../design_pattern/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -136,15 +136,64 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#latest-news">Latest News</a></li>
+        <li class="main active"><a href="#solid-principles">SOLID Principles</a></li>
+        
+            <li><a href="#srp-single-responsibility">SRP - Single Responsibility</a></li>
+        
+            <li><a href="#ocp-openclosed">OCP - Open/Closed</a></li>
+        
+            <li><a href="#lsp-liskov-substitution">LSP - Liskov Substitution</a></li>
+        
+            <li><a href="#isp-interface-segregation">ISP - Interface Segregation</a></li>
+        
+            <li><a href="#dip-dependency-inversion">DIP - Dependency Inversion</a></li>
+        
+    
+        <li class="main "><a href="#references">References</a></li>
         
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="latest-news">Latest News</h1>
-<div class="feeds" gid="1P1Kvi9S4WwVk0quwOtDuGhEeGa8xpLieYeuEvH2X2f8"></div></div>
+<h1 id="solid-principles">SOLID Principles</h1>
+<p>In computer programming, SOLID (single responsibility, open-closed, Liskov substitution, interface segregation and dependency inversion) is a mnemonic acronym introduced by Michael Feathers for the "first five principles" named by Robert C. Martin in the early 2000s that stands for five basic principles of object-oriented programming and design. The intention is that these principles, when applied together, will make it more likely that a programmer will create a system that is easy to maintain and extend over time. The principles of SOLID are guidelines that can be applied while working on software to remove code smells by providing a framework through which the programmer may refactor the software's source code until it is both legible and extensible. It is part of an overall strategy of agile and Adaptive Software Development.</p>
+<p>"Dependency Management is an issue that most of us have faced. Whenever we bring up on our screens a nasty batch of tangled legacy code, we are experiencing the results of poor dependency management. Poor dependency management leads to code that is hard to change, fragile, and non-reusable."</p>
+<p>Uncle Bob talk about several different design smells in the PPP book, all relating to dependency management. On the other hand, when dependencies are well managed, the code remains flexible, robust, and reusable. So dependency management, and therefore these principles, are at the foundation of the <em>-ilities</em> that software developers desire.</p>
+<h2 id="srp-single-responsibility">SRP - Single Responsibility</h2>
+<blockquote>
+<p>A class should have one, and only one, reason to change.</p>
+</blockquote>
+<p>A class should have only a single responsibility (i.e. only one potential change in the software's specification should be able to affect the specification of the class)</p>
+<p><a href="https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk">Original Paper</a></p>
+<h2 id="ocp-openclosed">OCP - Open/Closed</h2>
+<blockquote>
+<p>You should be able to extend a classes behavior, without modifying it.</p>
+</blockquote>
+<p>Software entities … should be open for extension, but closed for modification.”</p>
+<p><a href="http://docs.google.com/a/cleancoder.com/viewer?a=v&amp;pid=explorer&amp;chrome=true&amp;srcid=0BwhCYaYDn8EgN2M5MTkwM2EtNWFkZC00ZTI3LWFjZTUtNTFhZGZiYmUzODc1&amp;hl=en">Original Paper</a></p>
+<h2 id="lsp-liskov-substitution">LSP - Liskov Substitution</h2>
+<blockquote>
+<p>Derived classes must be substitutable for their base classes.</p>
+</blockquote>
+<p>Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program. See also design by contract.</p>
+<p><a href="http://docs.google.com/a/cleancoder.com/viewer?a=v&amp;pid=explorer&amp;chrome=true&amp;srcid=0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh&amp;hl=en">Original Paper</a></p>
+<h2 id="isp-interface-segregation">ISP - Interface Segregation</h2>
+<blockquote>
+<p>Make fine grained interfaces that are client specific.</p>
+</blockquote>
+<p>Many client-specific interfaces are better than one general-purpose interface.</p>
+<p><a href="http://docs.google.com/a/cleancoder.com/viewer?a=v&amp;pid=explorer&amp;chrome=true&amp;srcid=0BwhCYaYDn8EgOTViYjJhYzMtMzYxMC00MzFjLWJjMzYtOGJiMDc5N2JkYmJi&amp;hl=en">Original Paper</a></p>
+<h2 id="dip-dependency-inversion">DIP - Dependency Inversion</h2>
+<blockquote>
+<p>Depend on abstractions, not on concretions.</p>
+</blockquote>
+<p>One should “depend upon abstractions, <strong>not</strong> concretions.”</p>
+<p><a href="http://docs.google.com/a/cleancoder.com/viewer?a=v&amp;pid=explorer&amp;chrome=true&amp;srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&amp;hl=en">Original Paper</a></p>
+<h1 id="references">References</h1>
+<ul>
+<li><a href="http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod">The Principles of OOD</a></li>
+</ul></div>
             
         </div>
 
